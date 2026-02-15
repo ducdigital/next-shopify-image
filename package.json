@@ -1,10 +1,27 @@
 {
-  "name": "next-shopify-image",
-  "version": "0.1.0",
+  "name": "@ducdigital/next-shopify-image",
+  "version": "0.1.1",
   "description": "A React hook for using Shopify CDN images with the Next.js Image component",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "keywords": [
+    "next",
+    "nextjs",
+    "shopify",
+    "image",
+    "cdn",
+    "react",
+    "hook"
+  ],
+  "homepage": "https://github.com/ducdigital/next-shopify-image#readme",
+  "bugs": {
+    "url": "https://github.com/ducdigital/next-shopify-image/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ducdigital/next-shopify-image.git"
+  },
+  "license": "MIT",
+  "author": "DucDigital",
+  "type": "commonjs",
   "exports": {
     ".": {
       "import": {
@@ -17,6 +34,8 @@
       }
     }
   },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -24,25 +43,16 @@
     "build": "tsup",
     "dev": "tsup --watch"
   },
-  "keywords": [
-    "next",
-    "nextjs",
-    "shopify",
-    "image",
-    "cdn",
-    "react",
-    "hook"
-  ],
-  "license": "MIT",
-  "peerDependencies": {
-    "next": "^13 || ^14 || ^15",
-    "react": "^18 || ^19"
-  },
   "devDependencies": {
     "@types/react": "^19.2.14",
     "next": "^15.0.0",
     "react": "^19.0.0",
     "tsup": "^8.0.0",
     "typescript": "^5.0.0"
-  }
+  },
+  "peerDependencies": {
+    "next": "^13 || ^14 || ^15",
+    "react": "^18 || ^19"
+  },
+  "module": "./dist/index.mjs"
 }
