@@ -1,0 +1,48 @@
+{
+  "name": "next-shopify-image",
+  "version": "0.1.0",
+  "description": "A React hook for using Shopify CDN images with the Next.js Image component",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "keywords": [
+    "next",
+    "nextjs",
+    "shopify",
+    "image",
+    "cdn",
+    "react",
+    "hook"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "next": "^13 || ^14 || ^15",
+    "react": "^18 || ^19"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}
