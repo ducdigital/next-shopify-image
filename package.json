@@ -1,6 +1,6 @@
 {
   "name": "@ducdigital/next-shopify-image",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A React hook for using Shopify CDN images with the Next.js Image component",
   "keywords": [
     "next",
@@ -45,13 +45,13 @@
   },
   "devDependencies": {
     "@types/react": "^19.2.14",
-    "next": "^15.0.0",
+    "next": "^16.0.0",
     "react": "^19.0.0",
     "tsup": "^8.0.0",
     "typescript": "^5.0.0"
   },
   "peerDependencies": {
-    "next": "^13 || ^14 || ^15",
+    "next": "^16",
     "react": "^18 || ^19"
   },
   "module": "./dist/index.mjs"
